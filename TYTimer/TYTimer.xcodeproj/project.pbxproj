@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DCC6362244DDA750078C700 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCC6361244DDA750078C700 /* AppDelegate.m */; };
+		3DCC6365244DDA750078C700 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCC6364244DDA750078C700 /* SceneDelegate.m */; };
+		3DCC6368244DDA750078C700 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCC6367244DDA750078C700 /* ViewController.m */; };
+		3DCC636B244DDA750078C700 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DCC6369244DDA750078C700 /* Main.storyboard */; };
+		3DCC636D244DDA790078C700 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DCC636C244DDA790078C700 /* Assets.xcassets */; };
+		3DCC6370244DDA790078C700 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DCC636E244DDA790078C700 /* LaunchScreen.storyboard */; };
+		3DCC6373244DDA790078C700 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCC6372244DDA790078C700 /* main.m */; };
+		3DCC637B244DDC6F0078C700 /* TYDisplayLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCC637A244DDC6F0078C700 /* TYDisplayLink.m */; };
+		3DCC637E244DDDA20078C700 /* TYNSTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCC637D244DDDA20078C700 /* TYNSTimer.m */; };
+		3DCC6381244DE08D0078C700 /* TYProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCC6380244DE08C0078C700 /* TYProxy.m */; };
+		3DCC6384244DE2FA0078C700 /* TYNSProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCC6383244DE2FA0078C700 /* TYNSProxy.m */; };
+		3DCC638B244DE6BF0078C700 /* TYGCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCC638A244DE6BF0078C700 /* TYGCDTimer.m */; };
+		3DCC638E244DF9E40078C700 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCC638D244DF9E40078C700 /* TestViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3DCC635D244DDA750078C700 /* TYTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DCC6360244DDA750078C700 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3DCC6361244DDA750078C700 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3DCC6363244DDA750078C700 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		3DCC6364244DDA750078C700 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		3DCC6366244DDA750078C700 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3DCC6367244DDA750078C700 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3DCC636A244DDA750078C700 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DCC636C244DDA790078C700 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DCC636F244DDA790078C700 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DCC6371244DDA790078C700 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DCC6372244DDA790078C700 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3DCC6379244DDC6F0078C700 /* TYDisplayLink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYDisplayLink.h; sourceTree = "<group>"; };
+		3DCC637A244DDC6F0078C700 /* TYDisplayLink.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYDisplayLink.m; sourceTree = "<group>"; };
+		3DCC637C244DDDA20078C700 /* TYNSTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYNSTimer.h; sourceTree = "<group>"; };
+		3DCC637D244DDDA20078C700 /* TYNSTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYNSTimer.m; sourceTree = "<group>"; };
+		3DCC637F244DE08C0078C700 /* TYProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYProxy.h; sourceTree = "<group>"; };
+		3DCC6380244DE08C0078C700 /* TYProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYProxy.m; sourceTree = "<group>"; };
+		3DCC6382244DE2FA0078C700 /* TYNSProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYNSProxy.h; sourceTree = "<group>"; };
+		3DCC6383244DE2FA0078C700 /* TYNSProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYNSProxy.m; sourceTree = "<group>"; };
+		3DCC6389244DE6BF0078C700 /* TYGCDTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYGCDTimer.h; sourceTree = "<group>"; };
+		3DCC638A244DE6BF0078C700 /* TYGCDTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYGCDTimer.m; sourceTree = "<group>"; };
+		3DCC638C244DF9E40078C700 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		3DCC638D244DF9E40078C700 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DCC635A244DDA750078C700 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DCC6354244DDA750078C700 = {
+			isa = PBXGroup;
+			children = (
+				3DCC635F244DDA750078C700 /* TYTimer */,
+				3DCC635E244DDA750078C700 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DCC635E244DDA750078C700 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DCC635D244DDA750078C700 /* TYTimer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DCC635F244DDA750078C700 /* TYTimer */ = {
+			isa = PBXGroup;
+			children = (
+				3DCC6388244DE59E0078C700 /* GCDTimer */,
+				3DCC6387244DE5720078C700 /* DisplayLink */,
+				3DCC6386244DE55A0078C700 /* Timer */,
+				3DCC6385244DE5510078C700 /* Proxy */,
+				3DCC6360244DDA750078C700 /* AppDelegate.h */,
+				3DCC6361244DDA750078C700 /* AppDelegate.m */,
+				3DCC6363244DDA750078C700 /* SceneDelegate.h */,
+				3DCC6364244DDA750078C700 /* SceneDelegate.m */,
+				3DCC6366244DDA750078C700 /* ViewController.h */,
+				3DCC6367244DDA750078C700 /* ViewController.m */,
+				3DCC638C244DF9E40078C700 /* TestViewController.h */,
+				3DCC638D244DF9E40078C700 /* TestViewController.m */,
+				3DCC6369244DDA750078C700 /* Main.storyboard */,
+				3DCC636C244DDA790078C700 /* Assets.xcassets */,
+				3DCC636E244DDA790078C700 /* LaunchScreen.storyboard */,
+				3DCC6371244DDA790078C700 /* Info.plist */,
+				3DCC6372244DDA790078C700 /* main.m */,
+			);
+			path = TYTimer;
+			sourceTree = "<group>";
+		};
+		3DCC6385244DE5510078C700 /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				3DCC637F244DE08C0078C700 /* TYProxy.h */,
+				3DCC6380244DE08C0078C700 /* TYProxy.m */,
+				3DCC6382244DE2FA0078C700 /* TYNSProxy.h */,
+				3DCC6383244DE2FA0078C700 /* TYNSProxy.m */,
+			);
+			path = Proxy;
+			sourceTree = "<group>";
+		};
+		3DCC6386244DE55A0078C700 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				3DCC637C244DDDA20078C700 /* TYNSTimer.h */,
+				3DCC637D244DDDA20078C700 /* TYNSTimer.m */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		3DCC6387244DE5720078C700 /* DisplayLink */ = {
+			isa = PBXGroup;
+			children = (
+				3DCC6379244DDC6F0078C700 /* TYDisplayLink.h */,
+				3DCC637A244DDC6F0078C700 /* TYDisplayLink.m */,
+			);
+			path = DisplayLink;
+			sourceTree = "<group>";
+		};
+		3DCC6388244DE59E0078C700 /* GCDTimer */ = {
+			isa = PBXGroup;
+			children = (
+				3DCC6389244DE6BF0078C700 /* TYGCDTimer.h */,
+				3DCC638A244DE6BF0078C700 /* TYGCDTimer.m */,
+			);
+			path = GCDTimer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DCC635C244DDA750078C700 /* TYTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DCC6376244DDA790078C700 /* Build configuration list for PBXNativeTarget "TYTimer" */;
+			buildPhases = (
+				3DCC6359244DDA750078C700 /* Sources */,
+				3DCC635A244DDA750078C700 /* Frameworks */,
+				3DCC635B244DDA750078C700 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYTimer;
+			productName = TYTimer;
+			productReference = 3DCC635D244DDA750078C700 /* TYTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DCC6355244DDA750078C700 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "轻舔指尖";
+				TargetAttributes = {
+					3DCC635C244DDA750078C700 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 3DCC6358244DDA750078C700 /* Build configuration list for PBXProject "TYTimer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DCC6354244DDA750078C700;
+			productRefGroup = 3DCC635E244DDA750078C700 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DCC635C244DDA750078C700 /* TYTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DCC635B244DDA750078C700 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCC6370244DDA790078C700 /* LaunchScreen.storyboard in Resources */,
+				3DCC636D244DDA790078C700 /* Assets.xcassets in Resources */,
+				3DCC636B244DDA750078C700 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DCC6359244DDA750078C700 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCC6368244DDA750078C700 /* ViewController.m in Sources */,
+				3DCC638B244DE6BF0078C700 /* TYGCDTimer.m in Sources */,
+				3DCC6381244DE08D0078C700 /* TYProxy.m in Sources */,
+				3DCC637E244DDDA20078C700 /* TYNSTimer.m in Sources */,
+				3DCC638E244DF9E40078C700 /* TestViewController.m in Sources */,
+				3DCC637B244DDC6F0078C700 /* TYDisplayLink.m in Sources */,
+				3DCC6362244DDA750078C700 /* AppDelegate.m in Sources */,
+				3DCC6373244DDA790078C700 /* main.m in Sources */,
+				3DCC6384244DE2FA0078C700 /* TYNSProxy.m in Sources */,
+				3DCC6365244DDA750078C700 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3DCC6369244DDA750078C700 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DCC636A244DDA750078C700 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DCC636E244DDA790078C700 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DCC636F244DDA790078C700 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DCC6374244DDA790078C700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3DCC6375244DDA790078C700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DCC6377244DDA790078C700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TYTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tianyu.demo.TYTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DCC6378244DDA790078C700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TYTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tianyu.demo.TYTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DCC6358244DDA750078C700 /* Build configuration list for PBXProject "TYTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCC6374244DDA790078C700 /* Debug */,
+				3DCC6375244DDA790078C700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DCC6376244DDA790078C700 /* Build configuration list for PBXNativeTarget "TYTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCC6377244DDA790078C700 /* Debug */,
+				3DCC6378244DDA790078C700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DCC6355244DDA750078C700 /* Project object */;
+}

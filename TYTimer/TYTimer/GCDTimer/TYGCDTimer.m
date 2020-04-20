@@ -66,6 +66,7 @@ dispatch_semaphore_t semphore_;
     dispatch_source_t timer = timers_[timerId];
     if (timer) {
         dispatch_source_cancel(timer);
+        [timers_ removeObjectForKey:timerId];
     }
     dispatch_semaphore_signal(semphore_);
 }
